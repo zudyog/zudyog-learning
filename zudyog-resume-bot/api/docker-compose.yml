@@ -1,0 +1,15 @@
+version: "3.8"
+
+services:
+  rag-app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "8101:8101"
+    volumes:
+      - .:/app
+    environment:
+      - OPENAI_API_KEY=${OPENAI_API_KEY}
+      - PINECONE_API_KEY=${PINECONE_API_KEY}
+    restart: unless-stopped

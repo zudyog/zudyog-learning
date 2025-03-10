@@ -1,0 +1,35 @@
+[project]
+name = "zudyog-resume-bot-api"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "balajihambeere",email = "balaji.hambere@gmail.com"}
+]
+readme = "README.md"
+requires-python = ">=3.12,<3.13"
+dependencies = [
+    "fastapi[standard] (>=0.115.8,<0.116.0)",
+    "uvicorn[standard] (>=0.34.0,<0.35.0)",
+    "openai (>=1.63.2,<2.0.0)",
+    "python-dotenv (>=1.0.1,<2.0.0)",
+    "sqlmodel (>=0.0.22,<0.0.23)",
+    "reportlab (>=4.3.1,<5.0.0)",
+    "pypdf2 (>=3.0.1,<4.0.0)",
+    "tenacity (>=8.1.0,<9.0.0)",
+    "spacy (>=3.7.0,<3.8.0)",
+    "pytesseract (>=0.3.13,<0.4.0)",
+    "pdf2image (>=1.17.0,<2.0.0)",
+    "easyocr (>=1.7.2,<2.0.0)",
+    "en-core-web-sm @ https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.7.0/en_core_web_sm-3.7.0-py3-none-any.whl",
+    "pypdfium2 (>=4.30.1,<5.0.0)",
+    "update (>=0.0.1,<0.0.2)",
+    "pinecone (>=6.0.1,<7.0.0)",
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry]
+package-mode = false
