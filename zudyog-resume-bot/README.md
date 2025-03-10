@@ -1,8 +1,8 @@
-# rag-pinecone-openai
+# zUdyog-resume-bot
 
 ## 🚀 Introduction
 
-**rag-pinecone-openai** is an open-source Retrieval-Augmented Generation (RAG) contextual chatbot designed to provide accurate and relevant responses. It combines retrieval-based models with generative AI to enhance conversations.
+**zUdyog-resume-bot** is an open-source Retrieval-Augmented Generation (RAG) contextual chatbot designed to provide accurate and relevant responses. It combines retrieval-based models with generative AI to enhance conversations.
 
 Simply upload a PDF document, and rapt-ai will analyze its content, allowing you to ask questions, gain insights, and have meaningful discussions based on the information in the document.
 
